@@ -33,14 +33,12 @@
             <img src="images/GeoPDFlogo.png" alt="GeoPDF Viewer App Icon" class="hero-icon">
             <h1>GeoPDF Viewer</h1>
             <p class="hero-subtitle">Open unlimited georeferenced PDFs with a live GPS dot.<br>Offline. Simple. $1.99/year.</p>
-            <div class="download-buttons" id="download">
-                <a href="#" class="store-btn">
-                    <span class="store-label">Download on the</span>
-                    <span class="store-name">App Store</span>
+            <div class="download-buttons">
+                <a href="#" class="badge-btn">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="48">
                 </a>
-                <a href="#" class="store-btn">
-                    <span class="store-label">Get it on</span>
-                    <span class="store-name">Google Play</span>
+                <a href="#" class="badge-btn">
+                    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="48">
                 </a>
             </div>
         </div>
@@ -60,32 +58,44 @@
             <h2>Everything you need on the trail</h2>
             <div class="features-grid">
                 <div class="feature">
-                    <div class="feature-icon">🗺️</div>
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+                    </div>
                     <h3>Any GeoPDF Map</h3>
                     <p>Import USGS topo maps, ArcGIS exports, or any ArcGIS-compatible GeoPDF. Unlimited imports.</p>
                 </div>
                 <div class="feature">
-                    <div class="feature-icon">📍</div>
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="10" r="3"/><path d="M12 2a8 8 0 00-8 8c0 5.25 8 13 8 13s8-7.75 8-13a8 8 0 00-8-8z"/></svg>
+                    </div>
                     <h3>Live GPS Dot</h3>
                     <p>See exactly where you are on the map in real time with a live GPS dot and compass heading arrow.</p>
                 </div>
                 <div class="feature">
-                    <div class="feature-icon">⏺️</div>
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
                     <h3>Track Recording</h3>
                     <p>Record your path as a track line directly on the map. Saved automatically between sessions.</p>
                 </div>
                 <div class="feature">
-                    <div class="feature-icon">📌</div>
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
                     <h3>Drop Pins</h3>
                     <p>Long-press anywhere on the map to drop a pin. Pins are saved and visible every time you open the map.</p>
                 </div>
                 <div class="feature">
-                    <div class="feature-icon">✈️</div>
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><line x1="1" y1="1" x2="23" y2="23"/><path d="M16.72 11.06A10.94 10.94 0 0119 12.55"/><path d="M5 12.55a10.94 10.94 0 015.17-2.39"/><path d="M10.71 5.05A16 16 0 0122.56 9"/><path d="M1.42 9a15.91 15.91 0 014.7-2.88"/><path d="M8.53 16.11a6 6 0 016.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+                    </div>
                     <h3>Fully Offline</h3>
                     <p>No internet connection required once your map is imported. Your location data never leaves your device.</p>
                 </div>
                 <div class="feature">
-                    <div class="feature-icon">📱</div>
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                    </div>
                     <h3>iOS &amp; Android</h3>
                     <p>Available on both platforms. One low price gets you access on all your devices.</p>
                 </div>
@@ -135,7 +145,7 @@
     </section>
 
     <!-- PRICING -->
-    <section class="pricing">
+    <section class="pricing" id="download">
         <div class="container">
             <h2>Simple pricing</h2>
             <div class="pricing-card">
@@ -151,13 +161,11 @@
                     <li>✓ Cancel anytime</li>
                 </ul>
                 <div class="download-buttons">
-                    <a href="#" class="store-btn">
-                        <span class="store-label">Download on the</span>
-                        <span class="store-name">App Store</span>
+                    <a href="#" class="badge-btn">
+                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="48">
                     </a>
-                    <a href="#" class="store-btn">
-                        <span class="store-label">Get it on</span>
-                        <span class="store-name">Google Play</span>
+                    <a href="#" class="badge-btn">
+                        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="48">
                     </a>
                 </div>
             </div>
