@@ -114,7 +114,8 @@ nav {
 .badge-btn img {
     display: block;
     height: 48px;
-    width: auto;
+    width: 160px;
+    object-fit: contain;
 }
 
 /* ── Callout (Avenza SEO) ── */
