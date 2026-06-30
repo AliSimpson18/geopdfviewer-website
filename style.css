@@ -111,11 +111,17 @@ nav {
     opacity: 0.85;
 }
 
-.badge-btn img {
+.badge-apple {
     display: block;
     height: 48px;
-    width: 160px;
-    object-fit: contain;
+    width: auto;
+}
+
+.badge-google {
+    display: block;
+    height: 71px;
+    width: auto;
+    margin: -12px 0;
 }
 
 /* ── Callout (Avenza SEO) ── */
