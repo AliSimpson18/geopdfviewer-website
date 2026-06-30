@@ -98,6 +98,7 @@ nav {
     display: flex;
     gap: 14px;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -119,9 +120,8 @@ nav {
 
 .badge-google {
     display: block;
-    height: 71px;
+    height: 72px;
     width: auto;
-    margin: -12px 0;
 }
 
 /* ── Callout (Avenza SEO) ── */
